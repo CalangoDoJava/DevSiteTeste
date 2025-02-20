@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Quicksand:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Fira+Code:wght@300..700&family=Quicksand:wght@300..700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:#141313;
+    font: 200;
+    color: white;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+header {
+    display: flex; /* Ativa o flexbox */
+    justify-content: space-between; /* Espaço entre o título e os links */
+    align-items: center; /* Alinha verticalmente */
+    padding: 10px 20px;
+    background-color: #141313;
+}
+
+nav ul {
+    list-style: none; /* Remove os marcadores da lista */
+    display: flex; /* Organiza os itens na horizontal */
+    gap: 70px; /* Espaço entre os itens */
+    padding: 0;
+    margin-top: 20px;
+    margin-right: 240px;
+}
+
+nav ul li {
+    display: inline; /* Deixa os itens em linha */
+}
+
+nav ul li a {
+    text-decoration: none; /* Remove o sublinhado dos links */
+    color: rgb(226, 226, 226); /* Cor do texto */
+    font-size: 18px;
+}
+header h1{
+    color: #97EDAA;
+    font-family: "Fira Code", sans-serif ;
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+.container {
+    display: flex; /* Ativa o layout em linha */
+    align-items: center; /* Alinha verticalmente */
+    justify-content: space-between; /* Espaço entre os elementos */
+    padding: 50px 20px;
+    max-width: 1200px;
+    margin: 0 auto; /* Centraliza na tela */
+}
+
+.texto {
+    width: 50%; /* Ocupa metade do container */
+}
+
+.texto h1 {
+    font-size: 46px;
+    margin-bottom: 10px;
+    max-width: 400px; /* Define um limite máximo de largura */
+    word-wrap: break-word; /* Permite que as palavras quebrem se necessário */
+    overflow-wrap: break-word; /* Garante a quebra em palavras longas */
+    gap: 12px;
+    font-weight: 200;
+}
+
+.texto p {
+    font-size: 24px;
+    color: #c4c0c0;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-weight: 400;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #97EDAA;
+    color: rgb(0, 0, 0);
+    padding: 10px 40px 10px 40px;
+    gap: 10px;
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+
+.btn:hover {
+    background-color: #45a049;
+}
+
+.imagem {
+    width: 50%; /* Ocupa metade do container */
+    text-align: right; /* Alinha a imagem à direita */
+}
+
+.imagem img {
+    max-width: 100%; /* Garante que a imagem se ajuste ao espaço */
+    height: auto
+}
+#sobre-mim {
+    text-align: center; /* Centraliza todo o conteúdo */
+    padding: 50px 20px;
+}
+
+#sobre-mim h1 {
+    font-size: 32px;
+    margin-bottom: 15px;
+    font-weight: 400;
+    color: #97EDAA;
+    font-family: "Archivo", sans-serif;
+}
+
+#sobre-mim p {
+    font-size: 24px;
+    max-width: 900px;
+    margin: 0 auto 30px; /* Centraliza e dá espaço abaixo */
+}
+
+.redes-sociais {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+}
+
+.redes-sociais a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-size: 18px;
+    color: #fff;
+    gap: 8px;
+}
+
+.redes-sociais img {
+    width: 90px;
+    height: 90px
+}
+#projetos {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+#projetos h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    font-weight: 400;
+    color: #97EDAA;
+    font-family: "Archivo", sans-serif;
+}
+
+.linha-projetos {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+
+.projeto {
+    width: 300px;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.projeto img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.projeto h2 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.projeto h3 {
+    font-size: 16px;
+    color: #aaa;
+    margin-bottom: 15px;
+}
+
+.botoes {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.botao1, .botao2 {
+    padding: 10px 15px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.botao1 {
+    background-color: #97EDAA;
+    color: rgb(0, 0, 0);
+}
+
+.botao2 {
+    background-color: #0B0B0B;
+    color: #97EDAA;
+    border-radius: 10px;
+    border-color: #97EDAA;
+    border: 1px solid ;
+}
+
