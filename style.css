@@ -20,16 +20,16 @@ header {
 }
 
 nav ul {
-    list-style: none; /* Remove os marcadores da lista */
-    display: flex; /* Organiza os itens na horizontal */
-    gap: 70px; /* Espaço entre os itens */
+    list-style: none; 
+    display: flex; 
+    gap: 70px; 
     padding: 0;
     margin-top: 20px;
     margin-right: 240px;
 }
 
 nav ul li {
-    display: inline; /* Deixa os itens em linha */
+    display: inline;
 }
 
 nav ul li a {
@@ -161,10 +161,10 @@ header h1{
 }
 
 .projeto {
-    width: 300px;
+    width: 600px;
     padding: 20px;
     border-radius: 10px;
-    text-align: center;
+    text-align: start;
 }
 
 .projeto img {
@@ -173,20 +173,23 @@ header h1{
 }
 
 .projeto h2 {
+    font-family: "Archivo", sans-serif;
     font-size: 24px;
     margin: 10px 0;
+    font-weight: 400;
 }
 
 .projeto h3 {
     font-size: 16px;
-    color: #aaa;
+    color: #97EDAA;
     margin-bottom: 15px;
+    font-weight: 400;
 }
 
 .botoes {
     display: flex;
-    justify-content: center;
-    gap: 10px;
+    justify-content: start;
+    gap: 40px;
 }
 
 .botao1, .botao2 {
@@ -195,6 +198,9 @@ header h1{
     border: none;
     cursor: pointer;
     border-radius: 5px;
+    width: 400px;
+    height: 40px;
+    font-weight: 550;
 }
 
 .botao1 {
@@ -205,8 +211,126 @@ header h1{
 .botao2 {
     background-color: #0B0B0B;
     color: #97EDAA;
-    border-radius: 10px;
+    border-radius: 5px;
     border-color: #97EDAA;
-    border: 1px solid ;
+    border: 2px solid ;
+}
+#servicos {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+#servicos h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #97EDAA;
+    font-weight: 400;
+}
+
+.linha-servicos {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.servico {
+    width: 384px;
+    height: 290px;
+    background:#101010;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    position: relative;
+}
+
+.servico img {
+    height: 86px;
+    width: 86px;
+    border-radius: 10px;
+}
+
+.servico h2 {
+    display: flex;
+    flex: wrap;
+    justify-content: start;
+    align-items: start;
+    max-width: 200px;
+    font-size: 32px;
+    font-weight: 400;
+    margin-top: 65px;
+}
+
+.servico::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 5px;
+    position: absolute;
+    background-color: #97EDAA;
+    bottom: 0;
+    left: 0;
+    border-radius: 0 0 10px 10px;
+}
+#habilidades {
+    text-align: center;
+    padding: 50px 20px;
+    gap: 40px;
+}
+
+#habilidades h1 {
+    font-size: 32px;
+    font-weight: 400;
+    gap: 40px;
+    color: #97EDAA;
+    margin-bottom: 20px;
+}
+
+.habilidades-container {
+    display: flex;
+    justify-content: center;
+ margin: top 80px; ;
+    gap: 120px;
+    flex-wrap: wrap; 
+}
+
+.habilidades-container img {
+    border #97EDAA;
+    border-radius:5px solid ;
+    width: 86px;
+    height: 86px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+footer {
+    background-color: #101010; /* Cor do fundo do footer */
+    color: #fff;
+    font-weight: 400;
+    padding: 20px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 20px;
+}
+
+.meu-nome {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.powered-by {
+    display: flex;
+    align-items: center;
+    gap: 10px; 
+}
+
+.powered-by img {
+    width: 22px; 
+    height: 22px;
+    height: auto;
 }
 
